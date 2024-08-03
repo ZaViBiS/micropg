@@ -25,7 +25,7 @@ Example
 -----------------
 
 Query::
-
+```python
    import micropg
    conn = micropg.connect(host='127.0.0.1',
                        user='postgres',
@@ -44,7 +44,7 @@ Query::
       print(r[0], r[1])
 
    conn.close()
-
+```
 Restrictions and Unsupported Features
 --------------------------------------
 
